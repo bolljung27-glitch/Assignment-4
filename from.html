@@ -1,0 +1,38 @@
+<html lang="en">
+    <link rel="stylesheet" href="./style2.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<form action="/from/" method="post">
+    
+<div class="from-row">
+    
+    <label for="Fullname">ชื่อ - นาามสกุล  : </label>
+    <input type="text" id="Fullname" name="user_name" required>
+</div>
+<div class="from-row">
+    <label for="usermail">Email</label>
+    <input type="email" id="usermail" name="user_mail" required>
+</div>
+<div class="from-row">
+    <label for="Topic">หัวข้อติดต่อ</label>
+ <select name="user_topic" id="topic">
+ <option value="general">สอบถามปัญหา</option>
+ <option value="support">เเจ้งปัญหา</option>
+ </select>
+</div>
+<div class="from-row">
+    <label for="message">ช้อความ</label>
+    <textarea name="user_massage" id="massage"></textarea>
+</div>
+ <div class="checkbox-row">
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    <label for="subscribe">ติดตาม</label>
+ </div>
+ <div class="button-row">
+    <button type="submit">ส่งข้อความ</button>
+ </div>
+ </form> 
+</html>
